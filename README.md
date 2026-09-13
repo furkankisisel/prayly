@@ -20,7 +20,6 @@
 <p align="center">
   <a href="#-overview">Overview</a> •
   <a href="#-key-features">Key Features</a> •
-  <a href="#-visual-showcase">Visual Showcase</a> •
   <a href="#-architecture--design">Architecture</a> •
   <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-getting-started">Getting Started</a> •
@@ -35,31 +34,6 @@
 **Prayly** is a production-grade Flutter application that merges nostalgic **retro pixel-art aesthetics** with modern mobile software engineering. Designed with an **offline-first** philosophy, Prayly enables Muslims worldwide to track daily prayers, find the Qibla with sensor accuracy, log mosque visits with photos privately on-device, and maintain prayer streaks through an engaging collectible card and leveling system.
 
 Built following **Clean Architecture** and **Feature-First modularization**, Prayly demonstrates testable state management, resilient network fallbacks, sensor fusion, background notification scheduling, and 7-language internationalization.
-
----
-
-## 📸 Visual Showcase
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>Light Theme</strong></td>
-      <td align="center"><strong>Dark / AMOLED Theme</strong></td>
-    </tr>
-    <tr>
-      <td><img src="assets/images/prayly_lighttheme.png" width="340" alt="Prayly Light Theme" /></td>
-      <td><img src="assets/images/prayly_darkthme.png" width="340" alt="Prayly Dark Theme" /></td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Daily Prayer & Card System</strong></td>
-      <td align="center"><strong>Streak & Series Tracking</strong></td>
-    </tr>
-    <tr>
-      <td><img src="assets/images/prayer_card.png" width="340" alt="Prayer Card" /></td>
-      <td><img src="assets/images/series_card.png" width="340" alt="Series Card" /></td>
-    </tr>
-  </table>
-</div>
 
 ---
 
