@@ -1,0 +1,13 @@
+// Inject namespace for flutter_compass plugin (older version missing it)
+// Applied from root build.gradle via subprojects{...}
+if (project.name == "flutter_compass") {
+    afterEvaluate {
+        if (project.plugins.hasPlugin("com.android.library")) {
+            def androidExt = project.extensions.findByName("android")
+            if (androidExt != null && androidExt.hasProperty("namespace") && !androidExt.namespace) {
+                androidExt.namespace = "com.example.flutter_compass"
+                println("[patch] Set namespace for flutter_compass")
+            }
+        }
+    }
+}

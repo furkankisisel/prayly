@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_row_times"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="6dp"
+    android:background="@drawable/widget_bg_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/row_sabah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sab  --:--"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginEnd="8dp" />
+    <TextView
+        android:id="@+id/row_ogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Öğl  --:--"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginEnd="8dp" />
+    <TextView
+        android:id="@+id/row_ikindi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İkn  --:--"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginEnd="8dp" />
+    <TextView
+        android:id="@+id/row_aksam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aks  --:--"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginEnd="8dp" />
+    <TextView
+        android:id="@+id/row_yatsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yts  --:--"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+</LinearLayout>

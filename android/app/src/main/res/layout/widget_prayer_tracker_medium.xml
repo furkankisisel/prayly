@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#1A2028"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt_tracker_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Namaz Takip"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/txt_day_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="0/5"
+        android:textColor="#C79A32"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:id="@+id/list_statuses"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" />
+</LinearLayout>

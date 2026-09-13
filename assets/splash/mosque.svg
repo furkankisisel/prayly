@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64">
+  <!-- Simple pixel-style mosque: dome, base, minaret -->
+  <rect width="64" height="64" fill="#07101A" />
+  <!-- dome rows -->
+  <g fill="#C79A32">
+    <rect x="22" y="12" width="20" height="4" />
+    <rect x="20" y="16" width="24" height="4" />
+    <rect x="18" y="20" width="28" height="4" />
+    <rect x="16" y="24" width="32" height="4" />
+  </g>
+  <!-- dome cap -->
+  <rect x="30" y="8" width="4" height="4" fill="#C79A32" />
+  <!-- base walls -->
+  <g fill="#C79A32">
+    <rect x="12" y="32" width="40" height="12" />
+    <rect x="12" y="44" width="40" height="6" />
+  </g>
+  <!-- entrance (arch) -->
+  <g fill="#07101A">
+    <rect x="30" y="40" width="4" height="6" />
+    <rect x="28" y="36" width="8" height="4" />
+  </g>
+  <!-- minaret -->
+  <g fill="#C79A32">
+    <rect x="46" y="14" width="4" height="20" />
+    <rect x="44" y="12" width="8" height="2" />
+    <rect x="46" y="10" width="4" height="2" />
+  </g>
+</svg>
