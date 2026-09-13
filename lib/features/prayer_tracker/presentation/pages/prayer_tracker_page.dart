@@ -26,7 +26,6 @@ String _localizedPrayerShortName(AppLocalizations l10n, String name) {
     case 'ogle':
       return l10n.prayerDhuhr;
     case 'ikindi':
-    case 'ikindi':
       return l10n.prayerAsr;
     case 'akşam':
     case 'aksam':

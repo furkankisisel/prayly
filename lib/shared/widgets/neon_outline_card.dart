@@ -37,8 +37,6 @@ class _NeonOutlineCardState extends State<NeonOutlineCard>
   late AnimationController _hoverController;
   late AnimationController _glitchController;
 
-  bool _isHovered = false;
-
   @override
   void initState() {
     super.initState();
@@ -129,7 +127,6 @@ class _NeonOutlineCardState extends State<NeonOutlineCard>
   }
 
   void _onHover(bool isHovered) {
-    setState(() => _isHovered = isHovered);
     if (isHovered) {
       _hoverController.forward();
     } else {

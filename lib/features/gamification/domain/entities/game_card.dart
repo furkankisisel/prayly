@@ -73,9 +73,6 @@ class GameCard {
 
       case GameCardCategory.milestone:
         return Icons.emoji_events; // Milestone için kupa
-
-      default:
-        return Icons.star; // Varsayılan
     }
   }
 
@@ -88,8 +85,6 @@ class GameCard {
         return Icons.format_list_numbered; // Total
       case GameCardType.milestone:
         return Icons.flag; // Milestone
-      default:
-        return null;
     }
   }
 

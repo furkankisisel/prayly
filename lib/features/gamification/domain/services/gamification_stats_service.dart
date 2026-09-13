@@ -1,5 +1,4 @@
 import '../entities/game_card.dart';
-import '../entities/prayer_event.dart';
 import '../../data/repositories/local_gamification_repository.dart';
 
 /// Kullanıcı istatistiklerini toplayan ve hesaplayan servis

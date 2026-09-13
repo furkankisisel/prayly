@@ -50,7 +50,6 @@ class PrayerLocation {
     // Backward compatibility: check if old coordinate-based format
     if (json.containsKey('latitude') && json.containsKey('longitude')) {
       // Convert old format to new format
-      final address = json['address'] as String? ?? 'Bilinmeyen Adres';
       return PrayerLocation(
         name: json['name'] as String,
         imagePath: null, // No image in old format
@@ -107,7 +106,6 @@ class PrayerRecord {
 }
 
 class PrayerTrackerStorage {
-  static const _keyV1 = 'prayer_tracker_day_v1'; // bool map
   static const _keyV2 = 'prayer_tracker_day_v2'; // status map
   static const _keyV3 = 'prayer_tracker_day_v3'; // PrayerRecord map
   static const _keyLocations = 'prayer_locations'; // PrayerLocation list

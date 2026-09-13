@@ -1,4 +1,3 @@
-import '../entities/user_profile.dart';
 import '../entities/game_card.dart';
 
 /// Milestone (başarı) kartlarını yöneten servis

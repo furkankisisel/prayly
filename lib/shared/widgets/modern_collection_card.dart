@@ -38,7 +38,6 @@ class _ModernCollectionCardState extends State<ModernCollectionCard>
   late AnimationController _rotationController;
   late AnimationController _glowController;
   late AnimationController _hoverController;
-  bool _isHovered = false;
 
   @override
   void initState() {
@@ -130,7 +129,6 @@ class _ModernCollectionCardState extends State<ModernCollectionCard>
   }
 
   void _onHover(bool isHovered) {
-    setState(() => _isHovered = isHovered);
     if (isHovered) {
       _hoverController.forward();
     } else {
@@ -221,8 +219,6 @@ class _ModernCollectionCardState extends State<ModernCollectionCard>
   }
 
   Widget _buildCardContent() {
-    final colors = _getRarityColors(widget.rarity);
-
     return Padding(
       padding: const EdgeInsets.all(20),
       child: Column(

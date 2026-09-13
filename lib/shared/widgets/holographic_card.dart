@@ -38,8 +38,6 @@ class _HolographicCardState extends State<HolographicCard>
   late AnimationController _hoverController;
   late AnimationController _sparkleController;
 
-  bool _isHovered = false;
-
   @override
   void initState() {
     super.initState();
@@ -122,7 +120,6 @@ class _HolographicCardState extends State<HolographicCard>
   }
 
   void _onHover(bool isHovered) {
-    setState(() => _isHovered = isHovered);
     if (isHovered) {
       _hoverController.forward();
     } else {

@@ -1,4 +1,3 @@
-import '../entities/game_card.dart';
 
 /// Günlük ve haftalık görevleri yöneten servis
 class QuestService {

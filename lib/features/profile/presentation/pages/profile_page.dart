@@ -45,11 +45,6 @@ class _ProfilePageState extends State<ProfilePage> {
     final prayerController = context.watch<PrayerTimesController>();
     final scheme = Theme.of(context).colorScheme;
     final l10n = AppLocalizations.of(context)!;
-    // Fill color for inner widget areas: use primary (yellow) for light mode,
-    // otherwise keep the previous surface-filled look.
-    final fillColor = current == AppThemeMode.light
-        ? scheme.primary.withValues(alpha: .12)
-        : scheme.surface.withValues(alpha: .4);
 
     return ListView(
       padding: const EdgeInsets.all(16),

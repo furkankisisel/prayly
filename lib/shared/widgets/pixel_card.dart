@@ -62,7 +62,6 @@ class PixelCard extends StatefulWidget {
 class _PixelCardState extends State<PixelCard> with TickerProviderStateMixin {
   late AnimationController _bounceController;
   late AnimationController _sparkleController;
-  bool _isPressed = false;
 
   @override
   void initState() {
@@ -147,7 +146,6 @@ class _PixelCardState extends State<PixelCard> with TickerProviderStateMixin {
   }
 
   void _onPressed(bool pressed) {
-    setState(() => _isPressed = pressed);
     if (pressed) {
       _bounceController.forward();
     } else {

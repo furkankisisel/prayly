@@ -127,7 +127,7 @@ String _currentLocationLabel(PrayerTimesController c, BuildContext context) {
   if (c.currentCity != null) {
     return AppLocalizations.of(
       context,
-    )!.prayerTimesLocationText(c.currentCity!, c.currentCountry ?? '');
+    )!.prayerTimesLocationText(c.currentCity!, c.currentCountry);
   }
   return AppLocalizations.of(context)!.prayerTimesLocationGPS;
 }

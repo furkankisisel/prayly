@@ -37,7 +37,7 @@ class ShareService {
 
       debugPrint('✅ RepaintBoundary bulundu, resim oluşturuluyor...');
 
-      final boundary = renderObject as RenderRepaintBoundary;
+      final boundary = renderObject;
       ui.Image image = await boundary.toImage(pixelRatio: 3.0);
 
       debugPrint('✅ Resim oluşturuldu: ${image.width}x${image.height}');

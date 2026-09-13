@@ -19,6 +19,7 @@
 
 <p align="center">
   <a href="#-overview">Overview</a> •
+  <a href="#-visual-showcase">Visual Showcase</a> •
   <a href="#-key-features">Key Features</a> •
   <a href="#-architecture--design">Architecture</a> •
   <a href="#-tech-stack">Tech Stack</a> •
@@ -34,6 +35,51 @@
 **Prayly** is a production-grade Flutter application that merges nostalgic **retro pixel-art aesthetics** with modern mobile software engineering. Designed with an **offline-first** philosophy, Prayly enables Muslims worldwide to track daily prayers, find the Qibla with sensor accuracy, log mosque visits with photos privately on-device, and maintain prayer streaks through an engaging collectible card and leveling system.
 
 Built following **Clean Architecture** and **Feature-First modularization**, Prayly demonstrates testable state management, resilient network fallbacks, sensor fusion, background notification scheduling, and 7-language internationalization.
+
+---
+
+## 📱 Visual Showcase
+
+<p align="center">
+  <em>A cohesive visual experience combining modern glassmorphism, retro pixel-art motifs, and thoughtful UX animations.</em>
+</p>
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="docs/screenshots/01_prayer_times.jpg" alt="Prayer Times & Countdown" width="260" /><br><br>
+      <strong>⏱️ Prayer Times & Countdown</strong><br>
+      <sub>Real-time calculation, live countdown timer & automatic geolocation resolution</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="docs/screenshots/02_prayer_tracker.jpg" alt="Daily Prayer Tracker" width="260" /><br><br>
+      <strong>📝 Daily Prayer Tracker</strong><br>
+      <sub>5-time prayer daily checklist, level XP progress bar & completion statistics</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="docs/screenshots/03_prayer_modal.jpg" alt="Interactive Prayer Logging" width="260" /><br><br>
+      <strong>⚡ Quick Status Logging</strong><br>
+      <sub>Contextual action bottom sheet for marking Kıldı, Cemaat, or Kaza</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="docs/screenshots/04_level_streaks.jpg" alt="Leveling & Active Streaks" width="260" /><br><br>
+      <strong>🔥 Leveling & Active Streaks</strong><br>
+      <sub>RPG progression tracking individual streaks for Home, Mosque, and Congregation</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="docs/screenshots/05_card_collection.jpg" alt="Collectible Cards" width="260" /><br><br>
+      <strong>🃏 Collectible Card System</strong><br>
+      <sub>19+ unlockable pixel-art achievement badges rewarding consistency and milestones</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="docs/screenshots/06_profile_dark_mode.jpg" alt="Dark Mode & Personalization" width="260" /><br><br>
+      <strong>🌙 Deep Dark Theme & Settings</strong><br>
+      <sub>OLED pure black mode, dynamic color palettes, multi-language & notification preferences</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'pixel_primitives.dart';
-import '../../../gen_l10n/app_localizations.dart';
 
 class PixelCountdownPanel extends StatelessWidget {
   final String title;

@@ -96,8 +96,6 @@ class _PixelTabItem extends StatelessWidget {
     required this.unselectedColor,
   });
 
-  bool get _isInteractive => controller != null;
-
   @override
   Widget build(BuildContext context) {
     final scale = MediaQuery.textScaleFactorOf(context);

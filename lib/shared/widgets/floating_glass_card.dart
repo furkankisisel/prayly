@@ -39,8 +39,6 @@ class _FloatingGlassCardState extends State<FloatingGlassCard>
   late AnimationController _hoverController;
   late AnimationController _breathController;
 
-  bool _isHovered = false;
-
   @override
   void initState() {
     super.initState();
@@ -128,7 +126,6 @@ class _FloatingGlassCardState extends State<FloatingGlassCard>
   }
 
   void _onHover(bool isHovered) {
-    setState(() => _isHovered = isHovered);
     if (isHovered) {
       _hoverController.forward();
     } else {
