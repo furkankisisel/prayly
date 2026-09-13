@@ -1,0 +1,528 @@
+{
+    "@@locale": "zh",
+    "@@last_modified": "2024-12-19T12:00:00.000Z",
+    "@@_NAVIGATION": "主导航标签",
+    "navigationPrayerTimes": "时间",
+    "navigationTracker": "跟踪",
+    "navigationQibla": "朝拜方向",
+    "navigationLevel": "等级",
+    "navigationProfile": "个人资料",
+    "@@_SCREEN_TITLES": "屏幕标题",
+    "screenTitlePrayerTimes": "祈祷时间",
+    "screenTitlePrayerTracker": "祈祷跟踪",
+    "screenTitleQiblaCompass": "朝拜方向指南针",
+    "screenTitleLevel": "我的等级",
+    "screenTitleProfile": "个人资料",
+    "gamificationErrorLoading": "加载个人资料时出现问题",
+    "gamificationPleaseRestart": "请重新启动应用。",
+    "activeStreaks": "活跃连胜",
+    "daysUnit": "天",
+    "cardsCollection": "卡片收藏 ({count})",
+    "cardsDistribution": "卡片分布",
+    "categoryDaily": "每日祈祷",
+    "categoryFriday": "周五祈祷",
+    "categoryKandil": "坎迪尔之夜",
+    "categoryEid": "开斋节/宰牲节",
+    "categoryMosque": "清真寺发现",
+    "categoryMilestone": "里程碑",
+    "cardCountUnit": "张",
+    "statsFailedToLoad": "统计信息加载失败",
+    "generalStatistics": "总体统计",
+    "statTotalPrayers": "总祈祷次数",
+    "statCongregationPrayers": "集体祈祷",
+    "statBestStreak": "最长连胜",
+    "statWeeklyXp": "本周 XP",
+    "detailProgress": "进度",
+    "detailXpContribution": "XP 贡献",
+    "detailRarityScore": "稀有度分数",
+    "detailNextThreshold": "下一个阈值",
+    "screenTitleNotificationSettings": "通知设置",
+    "screenTitleSplash": "Prayly",
+    "@@_PRAYER_TIMES": "祈祷时间屏幕",
+    "prayerTimesRemainingTime": "剩余时间",
+    "prayerTimesLocation": "位置",
+    "prayerTimesAutomatic": "自动",
+    "prayerTimesHide": "隐藏",
+    "prayerTimesCity": "城市",
+    "prayerTimesLoading": "加载中",
+    "prayerTimesNoResults": "未找到结果",
+    "prayerTimesError": "错误：{error}",
+    "prayerTimesLocationText": "位置：{city}，{country}",
+    "prayerTimesLocationGPS": "位置：设备GPS",
+    "@@_PRAYER_NAMES": "祈祷名称",
+    "prayerFajr": "晨礼",
+    "prayerMorning": "黎明",
+    "prayerSunrise": "日出",
+    "prayerDhuhr": "晌礼",
+    "prayerAsr": "晡礼",
+    "prayerMaghrib": "昏礼",
+    "prayerIsha": "宵礼",
+    "@@_PRAYER_TRACKER": "祈祷跟踪屏幕",
+    "trackerSelectDate": "选择日期",
+    "trackerCancel": "取消",
+    "trackerSelect": "选择",
+    "trackerToday": "今天",
+    "trackerYesterday": "昨天",
+    "trackerHint": "点击祈祷以进行详细跟踪",
+    "trackerCompleted": "{completed} / {total} 已完成",
+    "trackerDialogHint": "点击祈祷进行详细跟踪",
+    "trackerPrayerName": "{prayerName} 祈祷",
+    "trackerSelectStatus": "选择状态：",
+    "trackerWhere": "您在哪里祈祷？",
+    "trackerLocationAtHome": "在家",
+    "trackerLocationAtMosque": "在清真寺",
+    "dialogBack": "返回",
+    "@@_PRAYER_STATUS": "祈祷状态",
+    "statusNotPrayed": "未祈祷",
+    "statusMakeup": "补祈",
+    "statusPrayed": "已祈祷",
+    "statusCongregation": "集体",
+    "@@_QIBLA": "朝拜方向屏幕",
+    "qiblaPermissionRequired": "需要位置权限来计算朝拜方向",
+    "qiblaServiceDisabled": "位置服务已禁用。请启用GPS/位置服务",
+    "qiblaLocationError": "无法获取位置：{error}",
+    "@qiblaLocationError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "qiblaPermissionDenied": "位置权限被拒绝。请从设置中授予权限",
+    "qiblaPermissionPermanentlyDenied": "位置权限被永久拒绝。请从设置中授予权限",
+    "qiblaPermissionError": "获取权限时出错：{error}",
+    "qiblaGrantPermission": "授予权限",
+    "qiblaOpenSettings": "打开设置",
+    "qiblaRefresh": "刷新",
+    "qiblaDeviceDirection": "设备方向",
+    "qiblaNorth": "北",
+    "qiblaSouth": "南",
+    "qiblaEast": "东",
+    "qiblaWest": "西",
+    "qiblaPermissionPrompt": "请授予位置权限",
+    "qiblaDirectionReading": "方向读数",
+    "qiblaWaitingLocation": "等待位置...",
+    "qiblaCompassSensorUnavailable": "指南针传感器不可用",
+    "qiblaPullToRefresh": "下拉刷新",
+    "qiblaDirectionWaiting": "等待中...",
+    "qiblaAligned": "已对准",
+    "qiblaTurnRight": "向右转",
+    "qiblaTurnLeft": "向左转",
+    "weekdayMonday": "星期一",
+    "weekdayTuesday": "星期二",
+    "weekdayWednesday": "星期三",
+    "weekdayThursday": "星期四",
+    "weekdayFriday": "星期五",
+    "weekdaySaturday": "星期六",
+    "weekdaySunday": "星期日",
+    "profileXpToNextLevel": "等级 {level} — 还需 {xp} XP 到下一级",
+    "@@_NOTIFICATIONS": "通知设置",
+    "notificationSelectSound": "选择",
+    "notificationDefaultSound": "选择的声音将用作所有通知的默认声音。您可以为每次祈祷设置不同的声音。",
+    "notificationSoundPicker": "选择通知声音",
+    "notificationSoundNote": "您选择的声音将用作所有通知的默认声音",
+    "notificationSoundLabel": "Notification Sound",
+    "notificationPerPrayerTitle": "Per-prayer Settings",
+    "notificationPerPrayerSubtitle": "You can set separate notification preferences for each prayer",
+    "notificationPerPrayerDetail": "Per-prayer customization for this prayer",
+    "notificationPreMinutesLabel": "Pre-time:",
+    "notificationPreTimeGlobal": "Pre-time (Global)",
+    "notificationSoundGlobalPrefix": "Global",
+    "notificationUseGlobalSoundTooltip": "Use global setting",
+    "notificationMuteAllSubtitle": "Temporarily mute all notifications",
+    "notificationInPrayerMode": "In-Prayer Mode",
+    "notificationInPrayerModeSubtitle": "Snooze notifications during prayer",
+    "notificationWomenModeInfo": "Women-only mode mutes all notifications when active.",
+    "notificationInPrayerDelay": "In-prayer mode delays nearby notifications by {minutes} minutes.",
+    "notificationPreTime": "Pre-time Notification",
+    "notificationSpecialModes": "Special Modes",
+    "prayerLabelSuffix": "Prayer",
+    "notificationGeneralSettings": "General notification settings",
+    "notificationOnTime": "On-time notification",
+    "notificationOnTimeSubtitle": "Send notification at prayer time",
+    "notificationPreTimeSubtitle": "Send notification before prayer time",
+    "notificationReturnToGlobal": "Return to global settings",
+    "notificationGlobal": "Global",
+    "notificationWomenModeTitle": "Women-only mode",
+    "notificationCustomizedSettings": "Customized settings",
+    "notificationUsingGlobalSettings": "Using global settings",
+    "notificationBadgeCustom": "CUSTOM",
+    "notificationCustomizeButton": "Customize",
+    "notificationToggleOff": "Off",
+    "notificationToggleOn": "On",
+    "minutesShort": "{minutes} min",
+    "@minutesShort": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@@_PROFILE": "个人资料屏幕",
+    "profileUser": "用户",
+    "profileChangeAvatar": "点击更改个人头像",
+    "profileThemeSettings": "主题设置",
+    "profileThemeLight": "浅色",
+    "profileThemeDark": "深色",
+    "profileThemeAmoled": "AMOLED",
+    "profileThemeSystem": "系统",
+    "profileNotifications": "通知",
+    "profileNotificationSettings": "通知设置",
+    "profileClose": "关闭",
+    "profileSelectFromGallery": "从相册选择",
+    "profileImageError": "选择图片时出错：{error}",
+    "profileSave": "保存",
+    "@@_GAMIFICATION": "游戏化屏幕",
+    "gamificationProfile": "个人资料",
+    "gamificationCards": "卡片",
+    "gamificationStatistics": "统计",
+    "statisticsTitle": "统计",
+    "statisticsTabWeekly": "每周",
+    "statisticsTabMonthly": "每月",
+    "statisticsTabYearly": "每年",
+    "statisticsSquares": "方格",
+    "statisticsSummary": "摘要",
+    "statisticsOverall": "总体分布",
+    "statisticsMiniLabelDone": "已完成",
+    "statisticsMiniLabelCongregation": "集体",
+    "statisticsMiniLabelMakeup": "补祈",
+    "statisticsMiniLabelNotPrayed": "未祈祷",
+    "statisticsLast7Days": "过去7天",
+    "statisticsLast30Days": "过去30天",
+    "statisticsLast365Days": "过去365天",
+    "gamificationErrorRestart": "请重启应用程序",
+    "gamificationLoading": "我的等级",
+    "gamificationClose": "关闭",
+    "@@_MILESTONE_TITLES": "成就卡片标题",
+    "milestoneFirstStep": "第一步",
+    "milestoneRegular": "常规",
+    "milestoneDetermined": "坚定",
+    "milestoneDevoted": "虔诚",
+    "milestoneFirstCongregation": "第一次集体",
+    "milestoneCongregationLover": "集体爱好者",
+    "milestoneCongregationMaster": "集体大师",
+    "milestoneFirstMosque": "第一次访问",
+    "milestoneMosqueExplorer": "清真寺探索者",
+    "milestoneRamadanWarrior": "斋月战士",
+    "milestoneNightOwl": "夜猫子",
+    "milestoneEarlyRiser": "早起者",
+    "@@_MILESTONE_DESCRIPTIONS": "成就卡片描述",
+    "milestoneDescFirstPrayer": "您记录了第一次祈祷",
+    "milestoneDesc10Prayers": "您记录了10次祈祷",
+    "milestoneDesc50Prayers": "您记录了50次祈祷",
+    "milestoneDesc100Prayers": "您记录了100次祈祷",
+    "milestoneDescFirstCongregation": "您记录了第一次集体祈祷",
+    "milestoneDesc25Congregation": "您记录了25次集体祈祷",
+    "milestoneDesc100Congregation": "您记录了100次集体祈祷",
+    "milestoneDescFirstMosque": "您记录了第一次清真寺访问",
+    "@@_QUEST_TITLES": "任务卡片标题",
+    "questComplete5Prayers": "完成5次祈祷",
+    "quest3Congregation": "3次集体",
+    "questFridayPrayer": "主麻祈祷",
+    "quest20Congregation": "集体周",
+    "quest7DaysStreak": "7天连续",
+    "@@_QUEST_DESCRIPTIONS": "任务卡片描述",
+    "questDescComplete5": "今天记录5次祈祷",
+    "questDesc3Congregation": "今天记录3次集体祈祷",
+    "questDescFriday": "本周记录主麻祈祷",
+    "questDesc20Congregation": "本周记录20次集体祈祷",
+    "questDesc7Days": "本周连续7天记录祈祷",
+    "@@_SOUND_OPTIONS": "声音选项",
+    "soundSystem": "系统",
+    "soundSoft1": "柔和1",
+    "soundSoft2": "柔和2",
+    "soundCheerful": "欢快",
+    "soundQanun": "卡农",
+    "soundSingle": "单音",
+    "soundAiry": "空灵",
+    "soundTwoNote": "双音",
+    "soundDesc_system": "Device default notification sound",
+    "soundDesc_softBell": "A soft and calm bell tone",
+    "soundDesc_softBellAlt": "Soft bell (alternate version)",
+    "soundDesc_shortAdhan": "Short adhan melody",
+    "soundDesc_natureBell": "Bell with natural sound effects",
+    "soundDesc_gentleChime": "A gentle melodic chime",
+    "soundDesc_qanun": "Qanun-style melodic piece",
+    "soundDesc_single8": "Single note, short 8-bit style sound",
+    "soundDesc_twoNoteA": "Two-note variation A",
+    "soundDesc_twoNoteB": "Two-note variation B",
+    "soundDesc_softMix": "Soft mixed sound effect",
+    "soundDesc_warm8bitAlt": "Warm 8-bit alternative",
+    "soundDesc_clearSound": "A clear and clean notification sound",
+    "soundDesc_systemAlarm": "Device alarm sound",
+    "soundDesc_systemNotification": "Device notification tone",
+    "soundDesc_systemRingtone": "Device ringtone sound",
+    "@@_MOSQUE_PICKER": "清真寺选择器",
+    "mosquePickerTitle": "选择清真寺",
+    "mosquePickerSelectFromGallery": "从相册选择",
+    "mosquePickerSaveMosque": "保存清真寺",
+    "mosquePickerNote": "• 您保存的清真寺将出现在列表中",
+    "mosquePickerImageError": "无法选择图片：{error}",
+    "mosquePickerAddNewLabel": "新 清真寺 +",
+    "mosquePickerNoSaved": "尚无已保存的清真寺",
+    "mosquePickerAddNewTitle": "添加新清真寺",
+    "mosquePickerOptional": "(可选)",
+    "mosquePickerFirstVisit": "首次访问：{day}/{month}/{year}",
+    "mosquePickerInfoLabel": "信息",
+    "mosquePickerNameExists": "具有此名称的清真寺已存在",
+    "mosquePickerNameUnique": "• 您不能添加具有相同名称的清真寺",
+    "@@_PRAYER_STATISTICS": "祈祷统计",
+    "statisticsError": "错误：{error}",
+    "statisticsToday": "今天",
+    "statisticsWeek": "本周",
+    "statisticsMonth": "本月",
+    "statisticsAll": "全部",
+    "statisticsTotal": "总计",
+    "statisticsCongregation": "集体",
+    "statisticsMakeup": "补祈",
+    "statisticsMissed": "错过",
+    "@@_DIALOGS": "对话框文本",
+    "dialogCancel": "取消",
+    "dialogSave": "保存",
+    "dialogClose": "关闭",
+    "dialogSelect": "选择",
+    "dialogOk": "确定",
+    "dialogYes": "是",
+    "dialogNo": "否",
+    "@@_COMMON": "常用文本",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "failed": "失败",
+    "warning": "警告",
+    "confirm": "确认",
+    "completed": "已完成",
+    "level": "等级",
+    "xp": "经验值",
+    "points": "积分",
+    "streak": "连击",
+    "@@_CARD_RARITIES": "卡片稀有度等级",
+    "rarityBronze": "青铜",
+    "raritySilver": "白银",
+    "rarityGold": "黄金",
+    "rarityPlatinum": "铂金",
+    "rarityDiamond": "钻石",
+    "rarityLegendary": "传奇",
+    "rarityMythic": "神话",
+    "@@_ISLAMIC_HOLIDAYS": "伊斯兰节日",
+    "holidayEidAlFitr": "开斋节",
+    "holidayEidAlAdha": "古尔邦节",
+    "holidayMawlid": "圣纪节",
+    "holidayLailatAlMiraj": "登霄节",
+    "holidayLailatAlBarat": "中夜节",
+    "holidayLailatAlQadr": "盖德尔夜",
+    "holidayAshura": "阿舒拉日",
+    "holidayArafa": "阿拉法日",
+    "holidayRegaib": "拉杰布夜",
+    "@@_SHARE": "分享",
+    "shareSuccess": "✅ 分享成功！",
+    "shareError": "❌ 分享错误：{error}",
+    "shareCompletedSeries": "✅ 完成系列：{series}",
+    "@@_DATABASE": "数据库操作",
+    "dbSaveProfile": "保存用户资料",
+    "dbSaveCard": "保存卡片",
+    "dbSaveAllCards": "保存所有卡片",
+    "dbSaveStatistics": "保存统计",
+    "dbClose": "关闭数据库",
+    "@@_GAMIFICATION_DEBUG": "游戏化调试消息",
+    "debugLoadingComplete": "游戏化：加载完成",
+    "debugProfileError": "游戏化资料加载错误：{error}",
+    "debugRepoError": "游戏化仓库：_getUserProfileFromPrefs错误：{error}",
+    "debugSaveError": "游戏化仓库：_saveUserProfileToPrefs错误：{error}",
+    "@@_PRAYER_TRACKER_STORAGE": "祈祷跟踪存储",
+    "storageDescription": "四种状态：未祈祷（无），补祈，已祈祷，集体。",
+    "storageCreateTable": "prayer_records",
+    "storageDeleteOld": "删除30天以上的记录",
+    "storageGetRecords": "获取特定日期范围的记录",
+    "storageGetAllRecords": "获取所有记录",
+    "storageSaveRecord": "保存记录",
+    "storageUpdateRecord": "更新记录",
+    "storageDeleteRecord": "删除记录",
+    "@@_DEMO_SCREENS": "演示屏幕（开发目的）",
+    "demoCollectionCard": "收藏卡片演示",
+    "demoModernCard": "现代卡片演示",
+    "demoFloatingGlass": "浮动玻璃演示",
+    "demoHolographic": "全息演示",
+    "demoNeonOutline": "霓虹轮廓演示",
+    "demoPixelCard": "像素卡片演示",
+    "demoPixelFrame": "像素框架演示",
+    "demoCardShowcase": "卡片展示演示",
+    "@prayerTimesError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@prayerTimesLocationText": {
+        "placeholders": {
+            "city": {
+                "type": "String"
+            },
+            "country": {
+                "type": "String"
+            }
+        }
+    },
+    "@trackerCompleted": {
+        "placeholders": {
+            "completed": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "@trackerPrayerName": {
+        "placeholders": {
+            "prayerName": {
+                "type": "String"
+            }
+        }
+    },
+    "locationAtHome": "At home",
+    "locationAtMosque": "At mosque",
+    "@qiblaPermissionError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@profileXpToNextLevel": {
+        "placeholders": {
+            "level": {
+                "type": "int"
+            },
+            "xp": {
+                "type": "int"
+            }
+        }
+    },
+    "@profileImageError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "mosquePickerEnterName": "Please enter mosque name",
+    "mosquePickerNameLabel": "Mosque Name",
+    "mosquePickerHintExample": "e.g. Central Mosque",
+    "@mosquePickerImageError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@statisticsError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@shareError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@shareCompletedSeries": {
+        "placeholders": {
+            "series": {
+                "type": "String"
+            }
+        }
+    },
+    "@debugProfileError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@debugRepoError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@debugSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_PROFILE_STATS": "Profil istatistik kısaltmaları",
+    "statAbbrTotal": "TOT",
+    "statAbbrCongregation": "CON",
+    "statAbbrActive": "ACT",
+    "statAbbrBest": "BST",
+    "statAbbrMosques": "MSQ",
+    "statAbbrCards": "CRD",
+    "statAbbrWeekly": "WKY",
+    "@@_UI_LABELS": "Kullanıcı arayüzü etiketleri",
+    "defaultUser": "User",
+    "progressLabel": "PROGRESS",
+    "levelAbbr": "LEVEL",
+    "@@_CARD_TITLES": "Kart başlıkları",
+    "cardHomePrayerStreak": "Home Prayer Streak",
+    "cardHomePrayerTotal": "Home Prayer Total",
+    "cardQadaPrayerTotal": "Makeup Prayer Total",
+    "cardCongregationStreak": "Congregation Streak",
+    "cardCongregationTotal": "Congregation Total",
+    "cardMosqueCongregationStreak": "Mosque Congregation Streak",
+    "cardMosqueCongregationTotal": "Mosque Congregation Total",
+    "cardFridayStreak": "Friday Prayer Streak",
+    "cardFridayTotal": "Friday Prayer Total",
+    "cardKandilStreak": "Holy Night Streak",
+    "cardKandilTotal": "Holy Night Total",
+    "cardEidStreak": "Eid Prayer Streak",
+    "cardEidTotal": "Eid Prayer Total",
+    "cardMosqueDiscovery": "Mosque Explorer",
+    "cardMosqueRegular": "Mosque Regular",
+    "cardFirstPrayer": "First Step",
+    "cardHundredPrayers": "Hundred Prayers",
+    "cardFiveHundredPrayers": "Five Hundred Prayers",
+    "cardThousandPrayers": "Thousand Prayers",
+    "@@_CARD_DESCRIPTIONS": "Kart açıklamaları",
+    "cardDescHomePrayerStreak": "Consecutive home prayers",
+    "cardDescHomePrayerTotal": "Total home prayers performed",
+    "cardDescQadaPrayerTotal": "Total makeup prayers",
+    "cardDescCongregationStreak": "Consecutive congregation prayers",
+    "cardDescCongregationTotal": "Total congregation prayers",
+    "cardDescMosqueCongregationStreak": "Consecutive mosque congregation prayers",
+    "cardDescMosqueCongregationTotal": "Total mosque congregation prayers",
+    "cardDescFridayStreak": "Consecutive Friday prayers",
+    "cardDescFridayTotal": "Total Friday prayers",
+    "cardDescKandilStreak": "Consecutive holy night prayers",
+    "cardDescKandilTotal": "Total holy night prayers",
+    "cardDescEidStreak": "Consecutive Eid prayers",
+    "cardDescEidTotal": "Total Eid prayers",
+    "cardDescMosqueDiscovery": "Different mosques discovered",
+    "cardDescMosqueRegular": "Consecutive prayers at same mosque",
+    "cardDescFirstPrayer": "First prayer milestone",
+    "cardDescHundredPrayers": "100 prayers milestone (total)",
+    "cardDescFiveHundredPrayers": "500 prayers milestone (total)",
+    "cardDescThousandPrayers": "1000 prayers milestone",
+    "@@_RARITY_NAMES": "Nadirlik isimleri",
+    "raritySiradan": "Common",
+    "rarityNadir": "Rare",
+    "rarityPro": "Pro",
+    "rarityGizemli": "Mysterious",
+    "rarityEfsane": "Legendary",
+    "rarityEpik": "Epic",
+    "rarityTunc": "Bronze",
+    "rarityGumus": "Silver",
+    "rarityAltin": "Gold",
+    "rarityPlatin": "Platinum",
+    "rarityElmas": "Diamond",
+    "rarityNur": "Divine Light",
+    "raritySidre": "Celestial"
+}

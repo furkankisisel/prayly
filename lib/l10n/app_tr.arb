@@ -1,0 +1,579 @@
+{
+    "@@locale": "tr",
+    "@@last_modified": "2024-12-19T12:00:00.000Z",
+    "@@_NAVIGATION": "Ana navigasyon etiketleri",
+    "navigationPrayerTimes": "Vakit",
+    "searchHintCityCountry": "Şehir, Ülke",
+    "navigationTracker": "Takip",
+    "navigationQibla": "Kıble",
+    "navigationLevel": "Seviyem",
+    "navigationProfile": "Profil",
+    "@@_SCREEN_TITLES": "Ekran başlıkları",
+    "screenTitlePrayerTimes": "Namaz Vakitleri",
+    "screenTitlePrayerTracker": "Namaz Takip",
+    "screenTitleQiblaCompass": "Kıble Pusulası",
+    "screenTitleLevel": "Seviyem",
+    "screenTitleProfile": "Profil",
+    "screenTitleNotificationSettings": "Bildirim Ayarları",
+    "screenTitleSplash": "Prayly",
+    "@@_PRAYER_TIMES": "Namaz vakitleri ekranı",
+    "prayerTimesRemainingTime": "VAKTE KALAN SÜRE",
+    "prayerTimesLocation": "Konum",
+    "prayerTimesAutomatic": "OTOMATİK",
+    "prayerTimesHide": "GİZLE",
+    "prayerTimesCity": "ŞEHİR",
+    "prayerTimesLoading": "Yükleniyor...",
+    "prayerTimesNoResults": "Sonuç bulunamadı",
+    "prayerTimesError": "Hata: {error}",
+    "@prayerTimesError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "prayerTimesLocationText": "Konum: {city}, {country}",
+    "@prayerTimesLocationText": {
+        "placeholders": {
+            "city": {
+                "type": "String"
+            },
+            "country": {
+                "type": "String"
+            }
+        }
+    },
+    "prayerTimesLocationGPS": "Konum: Cihaz GPS",
+    "prayerTimesLoading": "Yükleniyor",
+    "prayerTimesNoResults": "Sonuç bulunamadı",
+    "@@_PRAYER_NAMES": "Namaz adları",
+    "prayerFajr": "İmsak",
+    "prayerMorning": "Sabah",
+    "prayerSunrise": "Güneş",
+    "prayerDhuhr": "Öğle",
+    "prayerAsr": "İkindi",
+    "prayerMaghrib": "Akşam",
+    "prayerIsha": "Yatsı",
+    "@@_PRAYER_TRACKER": "Namaz takip ekranı",
+    "trackerSelectDate": "Tarih Seç",
+    "trackerCancel": "İptal",
+    "trackerSelect": "Seç",
+    "trackerToday": "Bugün",
+    "trackerYesterday": "Dün",
+    "trackerHint": "Namaz üzerine tıklayarak detaylı takip yapabilirsiniz",
+    "trackerCompleted": "{completed} / {total} tamamlandı",
+    "@trackerCompleted": {
+        "placeholders": {
+            "completed": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "trackerDialogHint": "Namaz üzerine tıklayarak detaylı takip yapabilirsiniz",
+    "trackerPrayerName": "{prayerName} Namazı",
+    "@trackerPrayerName": {
+        "placeholders": {
+            "prayerName": {
+                "type": "String"
+            }
+        }
+    },
+    "trackerSelectStatus": "Durum Seçin:",
+    "trackerWhere": "Nerede kıldınız?",
+    "trackerLocationAtHome": "Camide değil",
+    "trackerLocationAtMosque": "Camide",
+    "locationAtHome": "Camide değil",
+    "locationAtMosque": "Camide",
+    "@@_PRAYER_STATUS": "Namaz durumları",
+    "statusNotPrayed": "Kılmadı",
+    "statusMakeup": "Kaza",
+    "statusPrayed": "Kıldı",
+    "statusCongregation": "Cemaat",
+    "@@_QIBLA": "Kıble ekranı",
+    "qiblaPermissionRequired": "Kıble yönünü hesaplamak için konum izni gerekli",
+    "qiblaServiceDisabled": "Konum servisi kapalı. Lütfen GPS/konum hizmetini açın",
+    "qiblaLocationError": "Lokasyon alınamadı: {error}",
+    "@qiblaLocationError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "qiblaPermissionDenied": "Konum izni reddedildi. Lütfen ayarlardan izin verin",
+    "qiblaPermissionPermanentlyDenied": "Konum izni kalıcı olarak reddedildi. Lütfen ayarlardan izin verin",
+    "qiblaPermissionError": "İzin alınırken hata: {error}",
+    "@qiblaPermissionError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "qiblaGrantPermission": "İzin Ver",
+    "qiblaOpenSettings": "Ayarları Aç",
+    "qiblaRefresh": "Yenile",
+    "qiblaDeviceDirection": "Cihaz Yönü",
+    "qiblaNorth": "Kuzey",
+    "qiblaSouth": "Güney",
+    "qiblaEast": "Doğu",
+    "qiblaWest": "Batı",
+    "qiblaPermissionPrompt": "Lütfen konum izni verin",
+    "qiblaDirectionReading": "Yön Okuması",
+    "qiblaWaitingLocation": "Lokasyon bekleniyor...",
+    "qiblaCompassSensorUnavailable": "Pusula sensörü kullanılamıyor",
+    "qiblaPullToRefresh": "Yenilemek için çekin",
+    "qiblaDirectionWaiting": "Bekleniyor...",
+    "qiblaAligned": "Hizalı",
+    "qiblaTurnRight": "Sağa dön",
+    "qiblaTurnLeft": "Sola dön",
+    "weekdayMonday": "Pazartesi",
+    "weekdayTuesday": "Salı",
+    "weekdayWednesday": "Çarşamba",
+    "weekdayThursday": "Perşembe",
+    "weekdayFriday": "Cuma",
+    "weekdaySaturday": "Cumartesi",
+    "weekdaySunday": "Pazar",
+    "profileXpToNextLevel": "Seviye {level} — {xp} XP sonraki seviyeye",
+    "@profileXpToNextLevel": {
+        "placeholders": {
+            "level": {
+                "type": "int"
+            },
+            "xp": {
+                "type": "int"
+            }
+        }
+    },
+    "@@_PROFILE": "Profil ekranı",
+    "profileUser": "Kullanıcı",
+    "profileChangeAvatar": "Profil resmini değiştirmek için dokunun",
+    "profileThemeSettings": "Tema Ayarları",
+    "profileThemeLight": "Açık",
+    "profileThemeDark": "Koyu",
+    "profileThemeAmoled": "AMOLED",
+    "profileThemeSystem": "Sistem",
+    "profileNotifications": "Bildirimler",
+    "profileNotificationSettings": "Bildirim Ayarları",
+    "profileClose": "KAPAT",
+    "profileSelectFromGallery": "Galeriden Seç",
+    "profileImageError": "Resim seçilirken hata oluştu: {error}",
+    "@profileImageError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "profileSave": "Kaydet",
+    "@@_GAMIFICATION": "Oyunlaştırma ekranı",
+    "gamificationProfile": "Profil",
+    "gamificationCards": "Kartlar",
+    "gamificationStatistics": "İstatistik",
+    "statisticsTitle": "İSTATİSTİKLER",
+    "statisticsTabWeekly": "HAFTALIK",
+    "statisticsTabMonthly": "AYLIK",
+    "statisticsTabYearly": "YILLIK",
+    "statisticsSquares": "Kareler",
+    "statisticsSummary": "Özet",
+    "statisticsOverall": "Genel Dağılım",
+    "statisticsMiniLabelDone": "Kıldı",
+    "statisticsMiniLabelCongregation": "Cemaat",
+    "statisticsMiniLabelMakeup": "Kaza",
+    "statisticsMiniLabelNotPrayed": "Kılınmadı",
+    "statisticsLast7Days": "Son 7 Gün",
+    "statisticsLast30Days": "Son 30 Gün",
+    "statisticsLast365Days": "Son 365 Gün",
+    "gamificationErrorLoading": "Profil yüklenirken bir sorun oluştu",
+    "gamificationPleaseRestart": "Lütfen uygulamayı yeniden başlatın.",
+    "activeStreaks": "Aktif Seriler",
+    "daysUnit": "gün",
+    "cardsCollection": "Kart Koleksiyonu ({count})",
+    "cardsDistribution": "Kart Dağılımı",
+    "categoryDaily": "Günlük Namazlar",
+    "categoryFriday": "Cuma Namazları",
+    "categoryKandil": "Kandil Geceleri",
+    "categoryEid": "Bayramlar",
+    "categoryMosque": "Cami Keşfi",
+    "categoryMilestone": "Milestone'lar",
+    "@@_CARD_TITLES": "Kart başlıkları",
+    "cardHomePrayerStreak": "Evde Namaz Serisi",
+    "cardHomePrayerTotal": "Evde Namaz Toplamı",
+    "cardQadaPrayerTotal": "Kaza Toplamı",
+    "cardCongregationStreak": "Cemaat Serisi",
+    "cardCongregationTotal": "Cemaat Toplamı",
+    "cardMosqueCongregationStreak": "Camide Cemaat Serisi",
+    "cardMosqueCongregationTotal": "Camide Cemaat Toplamı",
+    "cardFridayStreak": "Cuma Serisi",
+    "cardFridayTotal": "Cuma Toplamı",
+    "cardKandilStreak": "Kandil Serisi",
+    "cardKandilTotal": "Kandil Toplamı",
+    "cardEidStreak": "Bayram Serisi",
+    "cardEidTotal": "Bayram Toplamı",
+    "cardMosqueDiscovery": "Cami Kaşifi",
+    "cardMosqueRegular": "Cami Müdavimi",
+    "cardFirstPrayer": "İlk Adım",
+    "cardHundredPrayers": "Yüz Namaz",
+    "cardFiveHundredPrayers": "Beş Yüz Namaz",
+    "cardThousandPrayers": "Bin Namaz",
+    "@@_CARD_DESCRIPTIONS": "Kart açıklamaları",
+    "cardDescHomePrayerStreak": "Aralıksız evde namaz",
+    "cardDescHomePrayerTotal": "Toplam evde kılınan namaz",
+    "cardDescQadaPrayerTotal": "Toplam kaza namazı",
+    "cardDescCongregationStreak": "Aralıksız cemaat namazı",
+    "cardDescCongregationTotal": "Toplam cemaat namazı",
+    "cardDescMosqueCongregationStreak": "Aralıksız camide cemaat",
+    "cardDescMosqueCongregationTotal": "Toplam camide cemaat namazı",
+    "cardDescFridayStreak": "Aralıksız Cuma namazı",
+    "cardDescFridayTotal": "Toplam Cuma namazı",
+    "cardDescKandilStreak": "Aralıksız kandil namazları",
+    "cardDescKandilTotal": "Toplam kandil namazı",
+    "cardDescEidStreak": "Aralıksız bayram namazları",
+    "cardDescEidTotal": "Toplam bayram namazı",
+    "cardDescMosqueDiscovery": "Farklı camiler keşfedildi",
+    "cardDescMosqueRegular": "Aynı camide aralıksız namaz",
+    "cardDescFirstPrayer": "İlk namaz milestone'ı",
+    "cardDescHundredPrayers": "100 namaz milestone'ı (toplam)",
+    "cardDescFiveHundredPrayers": "500 namaz milestone'ı (toplam)",
+    "cardDescThousandPrayers": "1000 namaz milestone'ı",
+    "cardCountUnit": "kart",
+    "statsFailedToLoad": "İstatistikler yüklenemedi",
+    "generalStatistics": "Genel İstatistikler",
+    "statTotalPrayers": "Toplam Namaz",
+    "statCongregationPrayers": "Cemaat Namazı",
+    "statBestStreak": "En Uzun Seri",
+    "statWeeklyXp": "Bu Hafta XP",
+    "detailProgress": "İlerleme",
+    "detailXpContribution": "XP Katkısı",
+    "detailRarityScore": "Rarity Puanı",
+    "detailNextThreshold": "Sonraki Eşik",
+    "gamificationErrorRestart": "Lütfen uygulamayı yeniden başlatın",
+    "gamificationLoading": "SEVİYEM",
+    "gamificationClose": "Kapat",
+    "@@_MILESTONE_TITLES": "Başarı kartları başlıkları",
+    "milestoneFirstStep": "İlk Adım",
+    "milestoneRegular": "Düzenli",
+    "milestoneDetermined": "Azimli",
+    "milestoneDevoted": "Müdavim",
+    "milestoneFirstCongregation": "İlk Cemaat",
+    "milestoneCongregationLover": "Cemaat Sevdalısı",
+    "milestoneCongregationMaster": "Cemaat Ustası",
+    "milestoneFirstMosque": "İlk Ziyaret",
+    "milestoneMosqueExplorer": "Cami Kaşifi",
+    "milestoneRamadanWarrior": "Ramazan Savaşçısı",
+    "milestoneNightOwl": "Gece Kuşu",
+    "milestoneEarlyRiser": "Erken Kalkan",
+    "@@_MILESTONE_DESCRIPTIONS": "Başarı kartları açıklamaları",
+    "milestoneDescFirstPrayer": "İlk namazınızı kaydettiniz",
+    "milestoneDesc10Prayers": "10 namaz kaydettiniz",
+    "milestoneDesc50Prayers": "50 namaz kaydettiniz",
+    "milestoneDesc100Prayers": "100 namaz kaydettiniz",
+    "milestoneDescFirstCongregation": "İlk cemaat namazınızı kaydettiniz",
+    "milestoneDesc25Congregation": "25 cemaat namazı kaydettiniz",
+    "milestoneDesc100Congregation": "100 cemaat namazı kaydettiniz",
+    "milestoneDescFirstMosque": "İlk cami ziyaretinizi kaydettiniz",
+    "@@_QUEST_TITLES": "Görev kartları başlıkları",
+    "questComplete5Prayers": "5 Vakit Tamamla",
+    "quest3Congregation": "3 Cemaat",
+    "questFridayPrayer": "Cuma Namazı",
+    "quest20Congregation": "Cemaat Haftası",
+    "quest7DaysStreak": "7 Gün Seri",
+    "@@_QUEST_DESCRIPTIONS": "Görev kartları açıklamaları",
+    "questDescComplete5": "Bugün 5 vakit namazı kaydet",
+    "questDesc3Congregation": "Bugün 3 cemaat namazı kaydet",
+    "questDescFriday": "Bu hafta Cuma namazını kaydet",
+    "questDesc20Congregation": "Bu hafta 20 cemaat namazı kaydet",
+    "questDesc7Days": "Bu hafta 7 gün aralıksız namaz kaydet",
+    "@@_NOTIFICATIONS": "Bildirim ayarları",
+    "notificationSelectSound": "Seç",
+    "notificationDefaultSound": "Seçilen ses tüm bildirimler için varsayılan olarak kullanılır. Her namaz için ayrı ses belirleyebilirsiniz.",
+    "notificationSoundPicker": "Bildirim Sesi Seçin",
+    "notificationSoundNote": "Seçtiğiniz ses tüm bildirimler için varsayılan olarak kullanılacak",
+    "notificationSoundLabel": "Bildirim Sesi",
+    "notificationPerPrayerTitle": "Namaza Özel Ayarlar",
+    "notificationPerPrayerSubtitle": "Her namaz için ayrı bildirim ayarları yapabilirsiniz",
+    "notificationPerPrayerDetail": "Bu namaz için özel ayarlar",
+    "notificationPreMinutesLabel": "Vakit öncesi:",
+    "notificationPreTimeGlobal": "Vakit öncesi (Global)",
+    "notificationSoundGlobalPrefix": "Genel",
+    "notificationUseGlobalSoundTooltip": "Global ayarı kullan",
+    "notificationMuteAllSubtitle": "Tüm bildirimleri geçici olarak durdur",
+    "notificationInPrayerMode": "Namazdayım Modu",
+    "notificationInPrayerModeSubtitle": "Namaz sırasında bildirimleri ertele",
+    "notificationWomenModeInfo": "Kadın Özel Modu aktifken tüm bildirimler durdurulur.",
+    "notificationInPrayerDelay": "Namazdayım Modu aktifken yakın bildirimler {minutes} dakika ertelenir.",
+    "notificationPreTime": "Vakit Öncesi Bildirim",
+    "notificationSpecialModes": "Özel Modlar",
+    "prayerLabelSuffix": "Namazı",
+    "notificationGeneralSettings": "Genel Bildirim Ayarları",
+    "notificationOnTime": "Vaktinde bildirim",
+    "notificationOnTimeSubtitle": "Namaz vaktinde bildirim gönder",
+    "notificationPreTimeSubtitle": "Namaz öncesinde bildirim gönder",
+    "notificationReturnToGlobal": "Global ayarlara dön",
+    "notificationGlobal": "Global",
+    "notificationWomenModeTitle": "Kadın Özel Modu",
+    "notificationCustomizedSettings": "Özelleştirilmiş ayarlar",
+    "notificationUsingGlobalSettings": "Global ayarları kullanıyor",
+    "notificationBadgeCustom": "ÖZEL",
+    "notificationCustomizeButton": "Özelleştir",
+    "notificationToggleOff": "Kapalı",
+    "notificationToggleOn": "Açık",
+    "minutesShort": "{minutes} dk",
+    "@minutesShort": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@@_SOUND_OPTIONS": "Ses seçenekleri",
+    "soundSystem": "Sistem",
+    "soundSoft1": "Yumuşak 1",
+    "soundSoft2": "Yumuşak 2",
+    "soundCheerful": "Neşeli",
+    "soundQanun": "Kanun",
+    "soundSingle": "Tekli",
+    "soundAiry": "Hafif",
+    "soundTwoNote": "İki Nota",
+    "soundDesc_system": "Cihazın varsayılan bildirim sesi",
+    "soundNameSystem": "Sistem Varsayılanı",
+    "soundNameSoftBell": "Yumuşak Zil",
+    "soundNameSoftBellAlt": "Yumuşak Zil (Alternatif)",
+    "soundNameShortAdhan": "Kısa Ezan",
+    "soundNameNatureBell": "Doğa Zili",
+    "soundNameGentleChime": "Nazik Çan",
+    "soundNameQanun": "Qanun / Str",
+    "soundNameSingle8": "Tek Nota 8-bit",
+    "soundNameTwoNoteA": "İki Nota A",
+    "soundNameTwoNoteB": "İki Nota B",
+    "soundNameSoftMix": "Yumuşak Karışık",
+    "soundNameWarm8bitAlt": "Sıcak 8-bit (Alternatif)",
+    "soundNameClearSound": "Net Uzun Ses",
+    "soundNameSystemAlarm": "Sistem Alarmı",
+    "soundNameSystemNotification": "Sistem Bildirimi",
+    "soundNameSystemRingtone": "Sistem Zil Sesi",
+    "soundDesc_softBell": "Yumuşak ve sakin bir zil sesi",
+    "soundDesc_softBellAlt": "Yumuşak zil (alternatif versiyon)",
+    "soundDesc_shortAdhan": "Kısa ezan melodisi",
+    "soundDesc_natureBell": "Doğal ses efektli zil",
+    "soundDesc_gentleChime": "Nazik ve melodik çan sesi",
+    "soundDesc_qanun": "Qanun tarzı melodik parça",
+    "soundDesc_single8": "Tek nota, 8-bit tarzı kısa ses",
+    "soundDesc_twoNoteA": "İki notalı A varyasyonu",
+    "soundDesc_twoNoteB": "İki notalı B varyasyonu",
+    "soundDesc_softMix": "Karışık yumuşak ses efekti",
+    "soundDesc_warm8bitAlt": "Sıcak 8-bit alternatifi",
+    "soundDesc_clearSound": "Net ve temiz bir bildirim sesi",
+    "soundDesc_systemAlarm": "Cihazın alarm sesi",
+    "soundDesc_systemNotification": "Cihazın bildirim tonu",
+    "soundDesc_systemRingtone": "Cihazın zil sesi (ringtone)",
+    "notificationTitleOnTime": "Vakit: {prayerName}",
+    "@notificationTitleOnTime": {
+        "placeholders": {
+            "prayerName": {
+                "type": "String"
+            }
+        }
+    },
+    "notificationBodyOnTime": "Saat {time}",
+    "@notificationBodyOnTime": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "notificationTitlePre": "Yaklaşıyor: {prayerName}",
+    "@notificationTitlePre": {
+        "placeholders": {
+            "prayerName": {
+                "type": "String"
+            }
+        }
+    },
+    "notificationBodyPre": "{minutes} dk kaldı",
+    "@notificationBodyPre": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@@_MOSQUE_PICKER": "Cami seçici",
+    "mosquePickerTitle": "CAMİ SEÇİN",
+    "mosquePickerSelectFromGallery": "Galeriden Seç",
+    "mosquePickerSaveMosque": "Camiyi Kaydet",
+    "mosquePickerNote": "• Kaydettiğiniz camiler listede görünecek",
+    "mosquePickerImageError": "Resim seçilemedi: {error}",
+    "mosquePickerAddNewLabel": "Yeni camii",
+    "mosquePickerNoSaved": "Henüz kayıtlı cami yok",
+    "mosquePickerAddNewTitle": "Yeni Cami Ekle",
+    "mosquePickerOptional": "(İsteğe bağlı)",
+    "mosquePickerFirstVisit": "İlk ziyaret: {day}/{month}/{year}",
+    "mosquePickerInfoLabel": "Bilgi",
+    "mosquePickerNameExists": "Bu isimde bir cami zaten kayıtlı",
+    "mosquePickerNameUnique": "• Aynı isimde cami ekleyemezsiniz",
+    "mosquePickerEnterName": "Lütfen cami adını girin",
+    "mosquePickerNameLabel": "Cami Adı",
+    "mosquePickerHintExample": "Örn: Merkez Cami",
+    "@mosquePickerImageError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_PRAYER_STATISTICS": "Namaz istatistikleri",
+    "statisticsError": "Hata: {error}",
+    "@statisticsError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "statisticsToday": "Bugün",
+    "statisticsWeek": "Bu Hafta",
+    "statisticsMonth": "Bu Ay",
+    "statisticsAll": "Tümü",
+    "statisticsTotal": "Toplam",
+    "statisticsCongregation": "Cemaat",
+    "statisticsMakeup": "Kaza",
+    "statisticsMissed": "Kaçırılan",
+    "@@_DIALOGS": "Dialog metinleri",
+    "dialogCancel": "İptal",
+    "dialogSave": "Kaydet",
+    "dialogClose": "Kapat",
+    "dialogSelect": "Seç",
+    "dialogOk": "Tamam",
+    "dialogYes": "Evet",
+    "dialogNo": "Hayır",
+    "dialogBack": "Geri",
+    "@@_COMMON": "Ortak kullanılan metinler",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "failed": "Başarısız",
+    "warning": "Uyarı",
+    "confirm": "Onayla",
+    "completed": "Tamamlandı",
+    "level": "Seviye",
+    "xp": "XP",
+    "points": "Puan",
+    "streak": "Seri",
+    "@@_PROFILE_STATS": "Profil istatistik kısaltmaları",
+    "statAbbrTotal": "TOP",
+    "statAbbrCongregation": "CEM",
+    "statAbbrActive": "AKT",
+    "statAbbrBest": "ENI",
+    "statAbbrMosques": "CAM",
+    "statAbbrCards": "KRT",
+    "statAbbrWeekly": "HFT",
+    "@@_UI_LABELS": "Kullanıcı arayüzü etiketleri",
+    "defaultUser": "Kullanıcı",
+    "progressLabel": "İLERLEME",
+    "levelAbbr": "SEVİYE",
+    "@@_CARD_RARITIES": "Kart nadirlik seviyeleri",
+    "rarityBronze": "Bronz",
+    "raritySilver": "Gümüş",
+    "rarityGold": "Altın",
+    "rarityPlatinum": "Platin",
+    "rarityDiamond": "Elmas",
+    "rarityLegendary": "Efsanevi",
+    "rarityMythic": "Mitik",
+    "@@_ISLAMIC_HOLIDAYS": "İslami bayramlar",
+    "holidayEidAlFitr": "Ramazan Bayramı",
+    "holidayEidAlAdha": "Kurban Bayramı",
+    "holidayMawlid": "Mevlid Kandili",
+    "holidayLailatAlMiraj": "Miraç Kandili",
+    "holidayLailatAlBarat": "Berat Kandili",
+    "holidayLailatAlQadr": "Kadir Gecesi",
+    "holidayAshura": "Aşure Günü",
+    "holidayArafa": "Arefe Günü",
+    "holidayRegaib": "Regaip Kandili",
+    "@@_SHARE": "Paylaşım",
+    "shareSuccess": "✅ Paylaşım başarılı!",
+    "shareError": "❌ Paylaşım hatası: {error}",
+    "@shareError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "shareCompletedSeries": "✅ Tamamlanan Seri: {series}",
+    "@shareCompletedSeries": {
+        "placeholders": {
+            "series": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_DATABASE": "Veritabanı işlemleri",
+    "dbSaveProfile": "User profile kaydet",
+    "dbSaveCard": "Kart kaydet",
+    "dbSaveAllCards": "Tüm kartları kaydet",
+    "dbSaveStatistics": "İstatistik kaydet",
+    "dbClose": "Database'i kapat",
+    "@@_GAMIFICATION_DEBUG": "Oyunlaştırma debug mesajları",
+    "debugLoadingComplete": "Gamification: Yükleme tamamlandı",
+    "debugProfileError": "Gamification profil yükleme hatası: {error}",
+    "@debugProfileError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "debugRepoError": "Gamification Repository: _getUserProfileFromPrefs hata: {error}",
+    "@debugRepoError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "debugSaveError": "Gamification Repository: _saveUserProfileToPrefs hata: {error}",
+    "@debugSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_PRAYER_TRACKER_STORAGE": "Namaz takip depolaması",
+    "storageDescription": "Dört durum: kılmadı (none), kaza, kıldı (kilindi), cemaatle.",
+    "storageCreateTable": "prayer_records",
+    "storageDeleteOld": "30 günden eski kayıtları sil",
+    "storageGetRecords": "Belirli tarih aralığındaki kayıtları getir",
+    "storageGetAllRecords": "Tüm kayıtları getir",
+    "storageSaveRecord": "Kayıt kaydet",
+    "storageUpdateRecord": "Kayıt güncelle",
+    "storageDeleteRecord": "Kayıt sil",
+    "@@_DEMO_SCREENS": "Demo ekranları (geliştirme amaçlı)",
+    "demoCollectionCard": "Collection Card Demo",
+    "demoModernCard": "Modern Card Demo",
+    "demoFloatingGlass": "Floating Glass Demo",
+    "demoHolographic": "Holographic Demo",
+    "demoNeonOutline": "Neon Outline Demo",
+    "demoPixelCard": "Pixel Card Demo",
+    "demoPixelFrame": "Pixel Frame Demo",
+    "demoCardShowcase": "Card Showcase Demo",
+    "@@_RARITY_NAMES": "Nadirlik isimleri",
+    "raritySiradan": "Sıradan",
+    "rarityNadir": "Nadir",
+    "rarityPro": "Pro",
+    "rarityGizemli": "Gizemli",
+    "rarityEfsane": "Efsane",
+    "rarityEpik": "Epik",
+    "rarityTunc": "Tunç",
+    "rarityGumus": "Gümüş",
+    "rarityAltin": "Altın",
+    "rarityPlatin": "Platin",
+    "rarityElmas": "Elmas",
+    "rarityNur": "Nûr",
+    "raritySidre": "Sidre"
+}

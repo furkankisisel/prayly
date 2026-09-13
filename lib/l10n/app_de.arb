@@ -1,0 +1,530 @@
+{
+    "@@locale": "de",
+    "@@_MAIN_TABS": "Hauptregisterkarten",
+    "screenTitlePrayerTimes": "Gebetszeiten",
+    "screenTitleTracker": "Tracker",
+    "screenTitleQiblaCompass": "Qibla-Kompass",
+    "screenTitleLevel": "Meine Stufe",
+    "screenTitleProfile": "Profil",
+    "gamificationErrorLoading": "Fehler beim Laden des Profils",
+    "gamificationPleaseRestart": "Bitte starten Sie die App neu.",
+    "qiblaPermissionPrompt": "Bitte erteilen Sie Zugriff auf den Standort",
+    "qiblaDirectionReading": "Richtungsanzeige",
+    "qiblaWaitingLocation": "Warte auf Standort...",
+    "qiblaCompassSensorUnavailable": "Kompasssensor nicht verfügbar",
+    "qiblaPullToRefresh": "Zum Aktualisieren ziehen",
+    "qiblaDirectionWaiting": "Warte...",
+    "qiblaAligned": "Ausrichtet",
+    "qiblaTurnRight": "Nach rechts drehen",
+    "qiblaTurnLeft": "Nach links drehen",
+    "weekdayMonday": "Montag",
+    "weekdayTuesday": "Dienstag",
+    "weekdayWednesday": "Mittwoch",
+    "weekdayThursday": "Donnerstag",
+    "weekdayFriday": "Freitag",
+    "weekdaySaturday": "Samstag",
+    "weekdaySunday": "Sonntag",
+    "profileXpToNextLevel": "Level {level} — {xp} XP bis zum nächsten",
+    "activeStreaks": "Aktive Serien",
+    "daysUnit": "Tage",
+    "cardsCollection": "Kartensammlung ({count})",
+    "cardsDistribution": "Kartenverteilung",
+    "categoryDaily": "Tägliche Gebete",
+    "categoryFriday": "Freitagsgebete",
+    "categoryKandil": "Kandil-Nächte",
+    "categoryEid": "Eid-Feiertage",
+    "categoryMosque": "Moschee-Entdeckung",
+    "categoryMilestone": "Meilensteine",
+    "cardCountUnit": "Karten",
+    "statsFailedToLoad": "Statistiken konnten nicht geladen werden",
+    "generalStatistics": "Allgemeine Statistiken",
+    "statTotalPrayers": "Gesamtgebete",
+    "statCongregationPrayers": "Gemeinschaftsgebete",
+    "statBestStreak": "Beste Serie",
+    "statWeeklyXp": "XP diese Woche",
+    "detailProgress": "Fortschritt",
+    "detailXpContribution": "XP-Beitrag",
+    "detailRarityScore": "Seltenheitspunktzahl",
+    "detailNextThreshold": "Nächstes Schwellenwert",
+    "@@_PRAYER_TIMES": "Gebetszeiten-Bildschirm",
+    "prayerTimesRemainingTime": "VERBLEIBENDE ZEIT",
+    "prayerTimesLocation": "Standort",
+    "prayerTimesAutomatic": "AUTOMATISCH",
+    "prayerTimesCity": "STADT",
+    "prayerTimesHide": "VERBERGEN",
+    "prayerTimesError": "Fehler: {error}",
+    "prayerTimesLocationText": "Standort: {city}, {country}",
+    "prayerTimesLocationGPS": "Standort: Geräte-GPS",
+    "prayerTimesLoading": "Wird geladen",
+    "prayerTimesNoResults": "Keine Ergebnisse gefunden",
+    "@@_PRAYER_NAMES": "Gebetsnamen",
+    "prayerFajr": "Fajr",
+    "prayerMorning": "Morgengebet",
+    "prayerSunrise": "Sonnenaufgang",
+    "prayerDhuhr": "Dhuhr",
+    "prayerAsr": "Asr",
+    "prayerMaghrib": "Maghrib",
+    "prayerIsha": "Isha",
+    "mosquePickerTitle": "MOSCHEE WÄHLEN",
+    "mosquePickerSelectFromGallery": "Aus Galerie auswählen",
+    "mosquePickerSaveMosque": "Moschee speichern",
+    "mosquePickerNote": "• Ihre gespeicherten Moscheen werden in der Liste angezeigt",
+    "mosquePickerImageError": "Bild konnte nicht ausgewählt werden: {error}",
+    "mosquePickerAddNewLabel": "Neue Moschee +",
+    "mosquePickerNoSaved": "Noch keine gespeicherten Moscheen",
+    "mosquePickerAddNewTitle": "Neue Moschee hinzufügen",
+    "mosquePickerOptional": "(Optional)",
+    "mosquePickerFirstVisit": "Erster Besuch: {day}/{month}/{year}",
+    "mosquePickerInfoLabel": "Info",
+    "mosquePickerNameExists": "Eine Moschee mit diesem Namen existiert bereits",
+    "mosquePickerNameUnique": "• Sie können keine Moschee mit demselben Namen hinzufügen",
+    "mosquePickerEnterName": "Bitte geben Sie den Namen der Moschee ein",
+    "mosquePickerNameLabel": "Name der Moschee",
+    "mosquePickerHintExample": "z. B. Zentralmoschee",
+    "trackerSelectDate": "Datum auswählen",
+    "trackerCancel": "Abbrechen",
+    "trackerSelect": "Auswählen",
+    "trackerToday": "Heute",
+    "trackerYesterday": "Gestern",
+    "trackerHint": "Tippen Sie auf ein Gebet, um es detailliert zu verfolgen",
+    "trackerCompleted": "{completed} / {total} abgeschlossen",
+    "trackerDialogHint": "Tippen Sie auf ein Gebet für detaillierte Verfolgung",
+    "trackerPrayerName": "Gebet {prayerName}",
+    "trackerSelectStatus": "Status auswählen:",
+    "trackerWhere": "Wo haben Sie gebetet?",
+    "trackerLocationAtHome": "Zu Hause",
+    "trackerLocationAtMosque": "In der Moschee",
+    "dialogBack": "Zurück",
+    "statisticsTitle": "STATISTIKEN",
+    "statisticsTabWeekly": "WÖCHENTLICH",
+    "statisticsTabMonthly": "MONATLICH",
+    "statisticsTabYearly": "JÄHRLICH",
+    "statisticsSquares": "Quadrate",
+    "statisticsSummary": "Zusammenfassung",
+    "statisticsOverall": "Gesamtverteilung",
+    "statisticsMiniLabelDone": "Erledigt",
+    "statisticsMiniLabelCongregation": "Gemeinschaft",
+    "statisticsMiniLabelMakeup": "Nachgeholt",
+    "statisticsMiniLabelNotPrayed": "Nicht gebetet",
+    "statisticsLast7Days": "Letzte 7 Tage",
+    "statisticsLast30Days": "Letzte 30 Tage",
+    "statisticsLast365Days": "Letzte 365 Tage",
+    "@@_NOTIFICATIONS": "Notification settings (placeholder)",
+    "notificationSelectSound": "Select",
+    "notificationDefaultSound": "Selected sound will be used as default for all notifications. You can set different sounds for each prayer.",
+    "notificationSoundPicker": "Select Notification Sound",
+    "notificationSoundNote": "Your selected sound will be used as default for all notifications",
+    "notificationSoundLabel": "Notification Sound",
+    "notificationPerPrayerTitle": "Per-prayer Settings",
+    "notificationPerPrayerSubtitle": "You can set separate notification preferences for each prayer",
+    "notificationPerPrayerDetail": "Per-prayer customization for this prayer",
+    "notificationPreMinutesLabel": "Pre-time:",
+    "notificationPreTimeGlobal": "Pre-time (Global)",
+    "notificationSoundGlobalPrefix": "Global",
+    "notificationUseGlobalSoundTooltip": "Use global setting",
+    "notificationMuteAllSubtitle": "Temporarily mute all notifications",
+    "notificationInPrayerMode": "In-Prayer Mode",
+    "notificationInPrayerModeSubtitle": "Snooze notifications during prayer",
+    "notificationWomenModeInfo": "Women-only mode mutes all notifications when active.",
+    "notificationInPrayerDelay": "In-prayer mode delays nearby notifications by {minutes} minutes.",
+    "notificationPreTime": "Pre-time Notification",
+    "notificationSpecialModes": "Special Modes",
+    "prayerLabelSuffix": "Prayer",
+    "notificationGeneralSettings": "General notification settings",
+    "notificationOnTime": "On-time notification",
+    "notificationOnTimeSubtitle": "Send notification at prayer time",
+    "notificationPreTimeSubtitle": "Send notification before prayer time",
+    "notificationReturnToGlobal": "Return to global settings",
+    "notificationGlobal": "Global",
+    "notificationWomenModeTitle": "Women-only mode",
+    "notificationCustomizedSettings": "Customized settings",
+    "notificationUsingGlobalSettings": "Using global settings",
+    "notificationBadgeCustom": "CUSTOM",
+    "notificationCustomizeButton": "Customize",
+    "notificationToggleOff": "Off",
+    "notificationToggleOn": "On",
+    "minutesShort": "{minutes} min",
+    "@minutesShort": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "soundDesc_system": "Device default notification sound",
+    "soundDesc_softBell": "A soft and calm bell tone",
+    "soundDesc_softBellAlt": "Soft bell (alternate version)",
+    "soundDesc_shortAdhan": "Short adhan melody",
+    "soundDesc_natureBell": "Bell with natural sound effects",
+    "soundDesc_gentleChime": "A gentle melodic chime",
+    "soundDesc_qanun": "Qanun-style melodic piece",
+    "soundDesc_single8": "Single note, short 8-bit style sound",
+    "soundDesc_twoNoteA": "Two-note variation A",
+    "soundDesc_twoNoteB": "Two-note variation B",
+    "soundDesc_softMix": "Soft mixed sound effect",
+    "soundDesc_warm8bitAlt": "Warm 8-bit alternative",
+    "soundDesc_clearSound": "A clear and clean notification sound",
+    "soundDesc_systemAlarm": "Device alarm sound",
+    "soundDesc_systemNotification": "Device notification tone",
+    "soundDesc_systemRingtone": "Device ringtone sound",
+    "@@last_modified": "2024-12-19T12:00:00.000Z",
+    "@@_NAVIGATION": "Ana navigasyon etiketleri",
+    "navigationPrayerTimes": "Times",
+    "navigationTracker": "Tracker",
+    "navigationQibla": "Qibla",
+    "navigationLevel": "Level",
+    "navigationProfile": "Profile",
+    "@@_SCREEN_TITLES": "Ekran başlıkları",
+    "screenTitlePrayerTracker": "Prayer Tracker",
+    "screenTitleNotificationSettings": "Notification Settings",
+    "screenTitleSplash": "Prayly",
+    "@prayerTimesError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@prayerTimesLocationText": {
+        "placeholders": {
+            "city": {
+                "type": "String"
+            },
+            "country": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_PRAYER_TRACKER": "Namaz takip ekranı",
+    "@trackerCompleted": {
+        "placeholders": {
+            "completed": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "@trackerPrayerName": {
+        "placeholders": {
+            "prayerName": {
+                "type": "String"
+            }
+        }
+    },
+    "locationAtHome": "At home",
+    "locationAtMosque": "At mosque",
+    "@@_PRAYER_STATUS": "Namaz durumları",
+    "statusNotPrayed": "Not Prayed",
+    "statusMakeup": "Makeup",
+    "statusPrayed": "Prayed",
+    "statusCongregation": "Congregation",
+    "@@_QIBLA": "Kıble ekranı",
+    "qiblaPermissionRequired": "Location permission required to calculate Qibla direction",
+    "qiblaServiceDisabled": "Location service is disabled. Please enable GPS/location service",
+    "qiblaLocationError": "Could not get location: {error}",
+    "@qiblaLocationError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "qiblaPermissionDenied": "Location permission denied. Please grant permission from settings",
+    "qiblaPermissionPermanentlyDenied": "Location permission permanently denied. Please grant permission from settings",
+    "qiblaPermissionError": "Error getting permission: {error}",
+    "@qiblaPermissionError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "qiblaGrantPermission": "Grant Permission",
+    "qiblaOpenSettings": "Open Settings",
+    "qiblaRefresh": "Refresh",
+    "qiblaDeviceDirection": "Device Direction",
+    "qiblaNorth": "North",
+    "qiblaSouth": "South",
+    "qiblaEast": "East",
+    "qiblaWest": "West",
+    "@profileXpToNextLevel": {
+        "placeholders": {
+            "level": {
+                "type": "int"
+            },
+            "xp": {
+                "type": "int"
+            }
+        }
+    },
+    "@@_PROFILE": "Profil ekranı",
+    "profileUser": "User",
+    "profileChangeAvatar": "Tap to change profile picture",
+    "profileThemeSettings": "Theme Settings",
+    "profileThemeLight": "Light",
+    "profileThemeDark": "Dark",
+    "profileThemeAmoled": "AMOLED",
+    "profileThemeSystem": "System",
+    "profileNotifications": "Notifications",
+    "profileNotificationSettings": "Notification Settings",
+    "profileClose": "CLOSE",
+    "profileSelectFromGallery": "Select from Gallery",
+    "profileImageError": "Error selecting image: {error}",
+    "@profileImageError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "profileSave": "Save",
+    "@@_GAMIFICATION": "Oyunlaştırma ekranı",
+    "gamificationProfile": "Profile",
+    "gamificationCards": "Cards",
+    "gamificationStatistics": "Statistics",
+    "gamificationErrorRestart": "Please restart the application",
+    "gamificationLoading": "MY LEVEL",
+    "gamificationClose": "Close",
+    "@@_MILESTONE_TITLES": "Başarı kartları başlıkları",
+    "milestoneFirstStep": "First Step",
+    "milestoneRegular": "Regular",
+    "milestoneDetermined": "Determined",
+    "milestoneDevoted": "Devoted",
+    "milestoneFirstCongregation": "First Congregation",
+    "milestoneCongregationLover": "Congregation Lover",
+    "milestoneCongregationMaster": "Congregation Master",
+    "milestoneFirstMosque": "First Visit",
+    "milestoneMosqueExplorer": "Mosque Explorer",
+    "milestoneRamadanWarrior": "Ramadan Warrior",
+    "milestoneNightOwl": "Night Owl",
+    "milestoneEarlyRiser": "Early Riser",
+    "@@_MILESTONE_DESCRIPTIONS": "Başarı kartları açıklamaları",
+    "milestoneDescFirstPrayer": "You recorded your first prayer",
+    "milestoneDesc10Prayers": "You recorded 10 prayers",
+    "milestoneDesc50Prayers": "You recorded 50 prayers",
+    "milestoneDesc100Prayers": "You recorded 100 prayers",
+    "milestoneDescFirstCongregation": "You recorded your first congregation prayer",
+    "milestoneDesc25Congregation": "You recorded 25 congregation prayers",
+    "milestoneDesc100Congregation": "You recorded 100 congregation prayers",
+    "milestoneDescFirstMosque": "You recorded your first mosque visit",
+    "@@_QUEST_TITLES": "Görev kartları başlıkları",
+    "questComplete5Prayers": "Complete 5 Prayers",
+    "quest3Congregation": "3 Congregations",
+    "questFridayPrayer": "Friday Prayer",
+    "quest20Congregation": "Congregation Week",
+    "quest7DaysStreak": "7-Day Streak",
+    "@@_QUEST_DESCRIPTIONS": "Görev kartları açıklamaları",
+    "questDescComplete5": "Record 5 prayers today",
+    "questDesc3Congregation": "Record 3 congregation prayers today",
+    "questDescFriday": "Record Friday prayer this week",
+    "questDesc20Congregation": "Record 20 congregation prayers this week",
+    "questDesc7Days": "Record prayers for 7 consecutive days this week",
+    "@@_SOUND_OPTIONS": "Ses seçenekleri",
+    "soundSystem": "System",
+    "soundSoft1": "Soft 1",
+    "soundSoft2": "Soft 2",
+    "soundCheerful": "Cheerful",
+    "soundQanun": "Qanun",
+    "soundSingle": "Single",
+    "soundAiry": "Airy",
+    "soundTwoNote": "Two Note",
+    "@@_MOSQUE_PICKER": "Cami seçici",
+    "@mosquePickerImageError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_PRAYER_STATISTICS": "Namaz istatistikleri",
+    "statisticsError": "Error: {error}",
+    "@statisticsError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "statisticsToday": "Today",
+    "statisticsWeek": "This Week",
+    "statisticsMonth": "This Month",
+    "statisticsAll": "All",
+    "statisticsTotal": "Total",
+    "statisticsCongregation": "Congregation",
+    "statisticsMakeup": "Makeup",
+    "statisticsMissed": "Missed",
+    "@@_DIALOGS": "Dialog metinleri",
+    "dialogCancel": "Cancel",
+    "dialogSave": "Save",
+    "dialogClose": "Close",
+    "dialogSelect": "Select",
+    "dialogOk": "OK",
+    "dialogYes": "Yes",
+    "dialogNo": "No",
+    "@@_COMMON": "Ortak kullanılan metinler",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "failed": "Failed",
+    "warning": "Warning",
+    "confirm": "Confirm",
+    "completed": "Completed",
+    "level": "Level",
+    "xp": "XP",
+    "points": "Points",
+    "streak": "Streak",
+    "@@_CARD_RARITIES": "Kart nadirlik seviyeleri",
+    "rarityBronze": "Bronze",
+    "raritySilver": "Silver",
+    "rarityGold": "Gold",
+    "rarityPlatinum": "Platinum",
+    "rarityDiamond": "Diamond",
+    "rarityLegendary": "Legendary",
+    "rarityMythic": "Mythic",
+    "@@_ISLAMIC_HOLIDAYS": "İslami bayramlar",
+    "holidayEidAlFitr": "Eid al-Fitr",
+    "holidayEidAlAdha": "Eid al-Adha",
+    "holidayMawlid": "Mawlid an-Nabi",
+    "holidayLailatAlMiraj": "Lailat al-Miraj",
+    "holidayLailatAlBarat": "Lailat al-Bara'at",
+    "holidayLailatAlQadr": "Lailat al-Qadr",
+    "holidayAshura": "Day of Ashura",
+    "holidayArafa": "Day of Arafah",
+    "holidayRegaib": "Lailat ar-Raghaib",
+    "@@_SHARE": "Paylaşım",
+    "shareSuccess": "✅ Sharing successful!",
+    "shareError": "❌ Sharing error: {error}",
+    "@shareError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "shareCompletedSeries": "✅ Completed Series: {series}",
+    "@shareCompletedSeries": {
+        "placeholders": {
+            "series": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_DATABASE": "Veritabanı işlemleri",
+    "dbSaveProfile": "Save user profile",
+    "dbSaveCard": "Save card",
+    "dbSaveAllCards": "Save all cards",
+    "dbSaveStatistics": "Save statistics",
+    "dbClose": "Close database",
+    "@@_GAMIFICATION_DEBUG": "Oyunlaştırma debug mesajları",
+    "debugLoadingComplete": "Gamification: Loading complete",
+    "debugProfileError": "Gamification profile loading error: {error}",
+    "@debugProfileError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "debugRepoError": "Gamification Repository: _getUserProfileFromPrefs error: {error}",
+    "@debugRepoError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "debugSaveError": "Gamification Repository: _saveUserProfileToPrefs error: {error}",
+    "@debugSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@@_PRAYER_TRACKER_STORAGE": "Namaz takip depolaması",
+    "storageDescription": "Four statuses: not prayed (none), makeup, prayed, congregation.",
+    "storageCreateTable": "prayer_records",
+    "storageDeleteOld": "Delete records older than 30 days",
+    "storageGetRecords": "Get records for specific date range",
+    "storageGetAllRecords": "Get all records",
+    "storageSaveRecord": "Save record",
+    "storageUpdateRecord": "Update record",
+    "storageDeleteRecord": "Delete record",
+    "@@_DEMO_SCREENS": "Demo ekranları (geliştirme amaçlı)",
+    "demoCollectionCard": "Collection Card Demo",
+    "demoModernCard": "Modern Card Demo",
+    "demoFloatingGlass": "Floating Glass Demo",
+    "demoHolographic": "Holographic Demo",
+    "demoNeonOutline": "Neon Outline Demo",
+    "demoPixelCard": "Pixel Card Demo",
+    "demoPixelFrame": "Pixel Frame Demo",
+    "demoCardShowcase": "Card Showcase Demo",
+    "@@_PROFILE_STATS": "Profil istatistik kısaltmaları",
+    "statAbbrTotal": "TOT",
+    "statAbbrCongregation": "CON",
+    "statAbbrActive": "ACT",
+    "statAbbrBest": "BST",
+    "statAbbrMosques": "MSQ",
+    "statAbbrCards": "CRD",
+    "statAbbrWeekly": "WKY",
+    "@@_UI_LABELS": "Kullanıcı arayüzü etiketleri",
+    "defaultUser": "User",
+    "progressLabel": "PROGRESS",
+    "levelAbbr": "LEVEL",
+    "@@_CARD_TITLES": "Kart başlıkları",
+    "cardHomePrayerStreak": "Home Prayer Streak",
+    "cardHomePrayerTotal": "Home Prayer Total",
+    "cardQadaPrayerTotal": "Makeup Prayer Total",
+    "cardCongregationStreak": "Congregation Streak",
+    "cardCongregationTotal": "Congregation Total",
+    "cardMosqueCongregationStreak": "Mosque Congregation Streak",
+    "cardMosqueCongregationTotal": "Mosque Congregation Total",
+    "cardFridayStreak": "Friday Prayer Streak",
+    "cardFridayTotal": "Friday Prayer Total",
+    "cardKandilStreak": "Holy Night Streak",
+    "cardKandilTotal": "Holy Night Total",
+    "cardEidStreak": "Eid Prayer Streak",
+    "cardEidTotal": "Eid Prayer Total",
+    "cardMosqueDiscovery": "Mosque Explorer",
+    "cardMosqueRegular": "Mosque Regular",
+    "cardFirstPrayer": "First Step",
+    "cardHundredPrayers": "Hundred Prayers",
+    "cardFiveHundredPrayers": "Five Hundred Prayers",
+    "cardThousandPrayers": "Thousand Prayers",
+    "@@_CARD_DESCRIPTIONS": "Kart açıklamaları",
+    "cardDescHomePrayerStreak": "Consecutive home prayers",
+    "cardDescHomePrayerTotal": "Total home prayers performed",
+    "cardDescQadaPrayerTotal": "Total makeup prayers",
+    "cardDescCongregationStreak": "Consecutive congregation prayers",
+    "cardDescCongregationTotal": "Total congregation prayers",
+    "cardDescMosqueCongregationStreak": "Consecutive mosque congregation prayers",
+    "cardDescMosqueCongregationTotal": "Total mosque congregation prayers",
+    "cardDescFridayStreak": "Consecutive Friday prayers",
+    "cardDescFridayTotal": "Total Friday prayers",
+    "cardDescKandilStreak": "Consecutive holy night prayers",
+    "cardDescKandilTotal": "Total holy night prayers",
+    "cardDescEidStreak": "Consecutive Eid prayers",
+    "cardDescEidTotal": "Total Eid prayers",
+    "cardDescMosqueDiscovery": "Different mosques discovered",
+    "cardDescMosqueRegular": "Consecutive prayers at same mosque",
+    "cardDescFirstPrayer": "First prayer milestone",
+    "cardDescHundredPrayers": "100 prayers milestone (total)",
+    "cardDescFiveHundredPrayers": "500 prayers milestone (total)",
+    "cardDescThousandPrayers": "1000 prayers milestone",
+    "@@_RARITY_NAMES": "Nadirlik isimleri",
+    "raritySiradan": "Common",
+    "rarityNadir": "Rare",
+    "rarityPro": "Pro",
+    "rarityGizemli": "Mysterious",
+    "rarityEfsane": "Legendary",
+    "rarityEpik": "Epic",
+    "rarityTunc": "Bronze",
+    "rarityGumus": "Silver",
+    "rarityAltin": "Gold",
+    "rarityPlatin": "Platinum",
+    "rarityElmas": "Diamond",
+    "rarityNur": "Divine Light",
+    "raritySidre": "Celestial"
+}
