@@ -273,5 +273,5 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 **Furkan Çalık**
 - GitHub: [@furkankisisel](https://github.com/furkankisisel)
-- Email: [furkancalk325@gmail.com](mailto:furkancalk325@gmail.com)
+- Email: [furkancalk325@gmail.com](mailto:corporate.furkan@gmail.com)
 - Project Repository: [https://github.com/furkankisisel/prayly](https://github.com/furkankisisel/prayly)
